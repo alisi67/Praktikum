@@ -1,0 +1,10 @@
+att=float(input())
+comp=float(input())
+yds=float(input())
+td=float(input())
+intt=float(input())
+a=((comp/att*100)-30)*0.05
+b=(yds/att-3)*0.25
+c=(td/att*100*0.2)
+d=2.375-(intt/att*100*0.25)
+print((a+b+c+d)/6*100)
